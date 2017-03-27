@@ -8,7 +8,6 @@ $(document).ready(function() {
     var favorite3 = $("#favorite3").val();
     var favorite4 = $("#favorite4").val();
 
-
     var favorites = []
     favorites.push(favorite1, favorite2, favorite3, favorite4);
     favorites.pop();
@@ -17,8 +16,6 @@ $(document).ready(function() {
 
     var newFavorites = favorites.slice();
 
-    alert(newFavorites);
-  //
   $("#output1").text(newFavorites[0]);
   $("#output2").text(newFavorites[1]);
   $("#output3").text(newFavorites[2]);
